@@ -1,0 +1,19 @@
+Mongo DB
+Express
+React / redux
+NodeJS & Nest
+
+TypeScript*
+
+BootStrap
+Sass*
+PostCSS*
+
+Webpack*
+
+GitHub
+
+* - Later
+
+
+
