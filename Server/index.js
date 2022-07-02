@@ -2,6 +2,10 @@ const express = require('express');
 const mysql = require('mysql2');
 const cors = require('cors');
 
+// require('@babel/register')({
+// 	configFile: path.resolve(__dirname, './babel.config.js'),
+// });
+
 const db = mysql.createPool({
     host: 'mysql_db', // the host name MYSQL_DATABASE: node_mysql
     user: 'MYSQL_USER', // database user MYSQL_USER: MYSQL_USER
