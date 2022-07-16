@@ -1,6 +1,6 @@
-FROM node:alpine
+FROM node:16
 RUN npm install -g create-react-app
-WORKDIR /app
+WORKDIR /usr/src/app
 COPY package.json ./
 COPY package-lock.json ./
 COPY ./ ./
